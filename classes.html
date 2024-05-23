@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="./img/fitness.png">
+            </div>
+            <div class="openmenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainmenu">
+                <li><a href="Home.html">home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <button id="open-overlay">Join us</button>
+                <div class="closemenu"><i class="fa fa-times"></i></div>
+                
+            </ul>
+        </nav>
+    </div>
+
+
+<!---------------- Section1 ------------------>
+<div class="section31">
+    <h1>Our Classes</h1>
+    <div class="cl">
+        <div class="class">
+            <img src="./img/cl21.jpeg">
+            <h3>6:30  7:30 Am</h3>
+            <h4>Power Excello</h4>
+        </div>
+        <div class="class">
+            <img src="./img/cl22.jpeg">
+            <h3>6:30  7:30 Am</h3>
+            <h4>Mixed-level Excello</h4>
+        </div>
+        <div class="class">
+            <img src="./img/cl23.jpeg">
+            <h3>6:30  7:30 Am</h3>
+            <h4>Beginner level</h4>
+        </div>
+    </div>
+</div>
+
+<!-------------------overlay------------------------->
+
+<div id="overlay" class="overlay"></div>
+<div id="form-container" class="form-container">
+    <form action="your-server-side-script" method="post">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mobile">Mobile No.:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="button" id="close-popup">Close</button>
+        </div>
+    </form>
+</div>
+<!------------------- section2 ----------------->
+
+<div class="section32">
+    <h1>Our Training Partners</h1>
+    <div class="cl2">
+        <div class="tp">
+            <img src="./img/cl21.jpeg">
+            <h4>John Smith</h4>
+        </div>
+        <div class="tp">
+            <img src="./img/cl22.jpeg">
+            <h4>Ansis Louis</h4>
+        </div>
+        <div class="tp">
+            <img src="./img/cl23.jpeg">
+            <h4>Phil Heath</h4>
+        </div>
+    </div>
+</div>
+
+<!-- --------------section3-------------- -->
+
+<div class="section33">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="./img/sl1.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/sl2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/sl3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/sl4.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="./img/sl5.jpg" style="width:100%">
+        </div>
+    </div>
+</div>
+
+<!-- --------- Footer --------------- -->
+
+<footer class="footer">
+    <div class="footer-section">
+        <img src="./img/fitness.png" alt="Fitness Logo">
+        <h2>Prioritize Your Fitness Goals with our world class services</h2>
+    </div>
+    <div class="footer-section">
+        <div class="heading">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="#">Help/FAQs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <h3>More</h3>
+            <ul>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Method</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-section">
+        <h3>Popular Tags</h3>
+        <div class="tags">
+            <button>ABS</button>
+            <button>Workout</button>
+            <button>Nutrition</button>
+            <button>GYM</button>
+            <button>Boxing</button>
+            <button>Trainers</button>
+            <button>Facilities</button>
+        </div>
+    </div>
+</footer>
+<p1> <b>&copy;2024 Fitness Star GYM</b></p1>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness gym</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="./img/fitness.png">
+            </div>
+            <div class="openmenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainmenu">
+                <li><a href="Home.html">home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <button id="open-overlay">Join us</button>
+                <div class="closemenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="section1">
+        <video id="video" autoplay loop muted plays-inline class="back-video">
+            <source src="./IMages and videos/7674509-uhd_4096_2160_25fps.mp4" type="video/mp4">
+        </video>
+
+<!-- Your main content here -->
+
+<div class="page1">
+    <h1>Revitalize <br> your body</h1>
+    <h2>Fall in love with taking care of yourself:<br> mind, body, and spirit.</h2>
+<div class="btn">
+    <button class="BTN1">Get Started</button>
+    <button class="BTN2">Free Trial</button>
+</div>
+</div>
+</div>
+<span class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-github"></i>
+</span>
+<!-------------------overlay------------------------->
+
+<div id="overlay" class="overlay"></div>
+<div id="form-container" class="form-container">
+    <form action="your-server-side-script" method="post">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="mobile">Mobile No.:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-buttons">
+            <button type="submit">Submit</button>
+            <button type="button" id="close-popup">Close</button>
+        </div>
+    </form>
+</div>
+
+<!-------------------Social media icons-------------------->
+
+
+<!--<div class="Social">
+    <div class="side">
+        <i class="fa fa-whatsapp" style="font-size: 24px;"></i>
+        <i class="fa fa-facebook" style="font-size: 24px;"></i>
+        <i class="fa fa-youtube" style="font-size: 24px;"></i>
+    </div>
+</div>-->
+
+
+<!--------------------------------------------PAGE 2----------------------------------------------->
+<div class="section2">
+    <div class="page2">
+        <div class="div">
+            <img src="./img/ft3.png" alt="weight">
+            <div class="text">Weight loss</div>
+        </div>
+        <div class="div">
+            <img src="./img/yoga1-removebg-preview.png" alt="yoga">
+            <div class="text">Yoga</div>
+        </div>
+        <div class="div">
+            <img src="./img/cycle-removebg-preview.png" alt="cycle">
+            <div class="text">Cycleing</div>
+        </div>
+        <div class="div">
+            <img src="./img/body_build-removebg-preview.png" alt="biceps">
+            <div class="text">Body building</div>
+        </div>
+        <div class="div">
+            <img src="./img/images-removebg-preview (2).png" alt="hyperthropy">
+            <div class="text">Hytherthropy</div>
+        </div>
+        <div class="div">
+            <img src="./img/run-removebg-preview.png" alt="Running">
+            <div class="text">Running</div>
+        </div>
+    </div>
+</div>
+
+<!---------------- Section3---------------->
+
+<div class="section3">
+    
+<div class="plan">
+    <h1>SUBSCRIPTION PLAN</h1>
+    <div class="cards">
+        <div class="card">
+            <div class="card-content">
+                <h5 class="card-title">Basic</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For 12 Months</h6>
+                <h5 class="card-title">800/month</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For Streaming</h6>
+                <button class="btn">Select Plan</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h5 class="card-title">Intermediate</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For 12 Months</h6>
+                <h5 class="card-title">800/month</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For Streaming</h6>
+                <button class="btn">Select Plan</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <h5 class="card-title">Advance</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For 12 Months</h6>
+                <h5 class="card-title">800/month</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">For Streaming</h6>
+                <button class="btn">Select Plan</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<!---------------------Section4-------------------->
+
+<div class="section4">
+    <div class="bg">
+        <img src="./img/is.jpg">
+    </div>
+    <div class="facility">
+    <div class="services">
+        <div class="s1">
+            <img src="./img/gm.png">
+            <h1>Good management</h1>
+            <h3>What hurts today makes you stronger tommorow </h3>
+        </div>
+        <div class="s1">
+            <img src="./img/ps1.jpg">
+            <h1>Practice session</h1>
+            <h3>Motivation is what gets you started. </h3>
+        </div>
+        <div class="s1">
+            <img src="./img/ft2.png">
+            <h1>Personal trainer</h1>
+            <h3>If it doesn't challenge you, it won't change you </h3>
+        </div>
+    </div>
+</div>
+</div>
+
+<!---------------------sectoin5------------->
+
+<div class="section5">
+    <div class="env">
+            <div class="sec">
+                <img src="./img/Sec1.jpeg">
+                <h2>Best place for body transformation</h2>
+            </div>
+            <div class="sec">
+                <img src="./img/Sec2.jpeg">
+                <h2>Best Cross Fit gym in this area</h2>
+            </div>
+            <div class="sec">
+                <img src="./img/sec3.jpg">
+                <h2>Best Bodybuilding gym in this city it has all required equipment</h2>
+            </div>
+    </div>
+</div>
+<!-- --------- Footer --------------- -->
+
+<footer class="footer">
+    <div class="footer-section">
+        <img src="./img/fitness.png" alt="Fitness Logo">
+        <h2>Prioritize Your Fitness Goals with our world class services</h2>
+    </div>
+    <div class="footer-section">
+        <div class="heading">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="#">Help/FAQs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Mobile</a></li>
+            </ul>
+        </div>
+        <div class="heading">
+            <h3>More</h3>
+            <ul>
+                <li><a href="#">Program</a></li>
+                <li><a href="#">Plans</a></li>
+                <li><a href="#">Method</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-section">
+        <h3>Popular Tags</h3>
+        <div class="tags">
+            <button>ABS</button>
+            <button>Workout</button>
+            <button>Nutrition</button>
+            <button>GYM</button>
+            <button>Boxing</button>
+            <button>Trainers</button>
+            <button>Facilities</button>
+        </div>
+    </div>
+</footer>
+<p1> <b>&copy;2024 Fitness Star GYM</b></p1>
+<script src="popup.js"></script>
+</body>
+</html>
